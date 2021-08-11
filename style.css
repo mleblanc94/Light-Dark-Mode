@@ -1,7 +1,21 @@
 body {
     margin: 0;
+    background: url();
 }
 
 .nav-list {
     display: flex;
+    margin: 5px;
+    list-style: none;;
+}
+
+.nav-list li {
+    margin: 15px;
+    color: red;
+    font-size: 1.7rem;
+}
+
+.nav-list-right {
+    display: flex;
+    margin-left: autoc
 }
