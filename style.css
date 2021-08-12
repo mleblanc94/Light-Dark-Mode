@@ -159,11 +159,45 @@ h3 {
 }
 
 .UI-2 img{
-  width: 90%;
+  width: 80%;
   height: auto;
 }
 
 .UI-3 img{
   width: 90%;
   height: auto;
+}
+
+/* Buttons Section */
+
+.buttons-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-style {
+  margin: 3px;
+  padding: 7px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.red {
+  background: #ed2828;
+  color: white;
+}
+
+.green {
+  background: #00b318;
+}
+
+.pink {
+  background: pink;
 }
