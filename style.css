@@ -1,8 +1,13 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
 body {
     margin: 0;
     background: url(light-background.jpg);
     background-size: cover;
 }
+
+/* Nav */
 
 .nav-list {
     display: flex;
@@ -13,9 +18,14 @@ body {
 
 .nav-list li {
     margin: 15px;
-    color: red;
     font-size: 1.7rem;
     font-weight: bolder;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: red;
 }
 
 .nav-list-right {
@@ -26,3 +36,26 @@ body {
 .nav-list-right li {
     color: #383737;
     }
+
+    /* Main Body */
+
+.main-body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 6rem;
+    color: #383737;
+    margin: 20px;
+    font-family: 'Style Script', cursive;
+}
+
+h3 {
+    margin-top: 5px;
+    font-size: 3rem;
+    font-weight: 200;
+}
