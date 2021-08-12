@@ -125,3 +125,12 @@ h3 {
     font-size: 3rem;
     font-weight: 200;
 }
+
+/* Undraw-Illustrations */
+
+.Undraw-Illustrations {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
